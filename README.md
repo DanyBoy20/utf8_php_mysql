@@ -2,7 +2,7 @@
 
 ## Insertar acentos, ñ y otros caracteres en MySQL
 
-La configuracion en el archivo _php.ini_ y en _mysql es la siguiente:
+La configuracion en el archivo _php.ini_ y en _mysql debe ser la siguiente:
 
 __php.ini__: default_charset = "utf-8"
 
