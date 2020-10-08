@@ -4,7 +4,7 @@ $user = "usuario";
 $pass = "12345";
 
 try{
-    $dsn = 'mysql:host=localhost;dbname=prueba;charset=utf8';
+    $dsn = 'mysql:host=localhost;dbname=prueba;charset=utf8'; // indicar utf8 en dsn
     $opciones = array(PDO::ATTR_PERSISTENT => true, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
     $con = new PDO($dsn, $user, $pass, $opciones);
 
